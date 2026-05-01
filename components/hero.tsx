@@ -126,7 +126,7 @@ export function Hero() {
           <div className="animate-on-scroll opacity-0 relative">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=700&q=80"
+                src="/hero.jpeg"
                 alt="Dr. Valentín Luna Domínguez - Especialista en Cirugía de Mano"
                 fill
                 className="object-cover"

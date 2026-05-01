@@ -41,15 +41,12 @@ export function Gallery() {
   }, [])
 
   const images = [
-    "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=500&q=80",
-    "https://images.unsplash.com/photo-1581595219315-a187dd40c322?w=500&q=80",
-    "https://images.unsplash.com/photo-1609501676725-7186f017a4b7?w=500&q=80",
-    "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?w=500&q=80",
-    "https://images.unsplash.com/photo-1504439468489-c8920d796a29?w=500&q=80",
-    "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&q=80",
-    "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?w=500&q=80",
-    "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?w=500&q=80",
-    "https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=500&q=80",
+    "/service-1.jpeg",
+    "/service-2.jpeg",
+    "/service-3.jpeg",
+    "/service-4.jpeg",
+    "/service-5.jpeg",
+    "/service-6.jpeg",
   ]
 
   const openLightbox = (index: number) => {
@@ -71,8 +68,11 @@ export function Gallery() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="animate-on-scroll opacity-0 font-serif font-bold text-[#111111] text-3xl sm:text-4xl lg:text-5xl mb-4">
-              Nuestras instalaciones
+              Galería de servicios
             </h2>
+            <p className="animate-on-scroll opacity-0 text-[#111111]/70 max-w-2xl mx-auto">
+              Conoce algunos de los procedimientos y casos atendidos por el Dr. Valentín Luna en cirugía de mano.
+            </p>
           </div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -84,7 +84,7 @@ export function Gallery() {
               >
                 <Image
                   src={image}
-                  alt={`Instalaciones del consultorio ${index + 1}`}
+                  alt={`Servicio de cirugía de mano ${index + 1}`}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-110"
                 />
@@ -141,7 +141,7 @@ export function Gallery() {
           <div className="relative max-w-4xl max-h-[80vh] w-full h-full" onClick={(e) => e.stopPropagation()}>
             <Image
               src={images[activeImage]}
-              alt={`Instalaciones del consultorio ${activeImage + 1}`}
+              alt={`Servicio de cirugía de mano ${activeImage + 1}`}
               fill
               className="object-contain"
             />
