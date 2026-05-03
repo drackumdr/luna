@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/luna',
-  assetPrefix: '/luna/',
+  assetPrefix: './',
   trailingSlash: true,
   typescript: {
     ignoreBuildErrors: true,

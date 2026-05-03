@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react"
 import Image from "next/image"
 import Link from "next/link"
+import heroImage from "@/public/hero.jpeg"
 
 export function Hero() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -126,7 +127,7 @@ export function Hero() {
           <div className="animate-on-scroll opacity-0 relative">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
               <Image
-                src="/hero.jpeg"
+                src={heroImage}
                 alt="Dr. Valentín Luna Domínguez - Especialista en Cirugía de Mano"
                 fill
                 className="object-cover"

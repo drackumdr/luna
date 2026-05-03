@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export",
+    "build:static": "next build",
+    "serve:static": "npx serve out",
     "start": "next start",
     "lint": "eslint ."
   },

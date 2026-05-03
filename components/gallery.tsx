@@ -2,6 +2,12 @@
 
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
+import service1 from "@/public/service-1.jpeg"
+import service2 from "@/public/service-2.jpeg"
+import service3 from "@/public/service-3.jpeg"
+import service4 from "@/public/service-4.jpeg"
+import service5 from "@/public/service-5.jpeg"
+import service6 from "@/public/service-6.jpeg"
 
 export function Gallery() {
   const sectionRef = useRef<HTMLElement>(null)
@@ -41,12 +47,12 @@ export function Gallery() {
   }, [])
 
   const images = [
-    "/service-1.jpeg",
-    "/service-2.jpeg",
-    "/service-3.jpeg",
-    "/service-4.jpeg",
-    "/service-5.jpeg",
-    "/service-6.jpeg",
+    service1,
+    service2,
+    service3,
+    service4,
+    service5,
+    service6,
   ]
 
   const openLightbox = (index: number) => {
