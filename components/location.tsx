@@ -35,13 +35,13 @@ export function Location() {
           {/* Map */}
           <div className="lg:col-span-3 rounded-xl overflow-hidden h-[420px]">
             <iframe
-              src="https://maps.google.com/maps?q=Hospital+Star+Medica+Chihuahua+Chihuahua&output=embed"
+              src="https://maps.google.com/maps?q=Hospital+Ángeles+Nueva+Torre+Avenida+Tomás+Valles+6500+Chihuahua&output=embed"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Ubicación de Hospital Star Médica Chihuahua"
+              title="Ubicación de Hospital Ángeles Nueva Torre"
             />
           </div>
 
@@ -67,8 +67,8 @@ export function Location() {
                   />
                 </svg>
                 <div>
-                  <p className="font-semibold text-[#111111]">Hospital Star Médica</p>
-                  <p className="text-[#111111]/70">Consultorio 1010</p>
+                  <p className="font-semibold text-[#111111]">Hospital Ángeles Nueva Torre</p>
+                  <p className="text-[#111111]/70">Avenida Tomás Valles 6500, Consultorio 713, Piso 7</p>
                 </div>
               </div>
 
@@ -92,7 +92,7 @@ export function Location() {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <p className="text-[#111111]/70">Chihuahua, Chihuahua</p>
+                <p className="text-[#111111]/70">Avenida Tomás Valles 6500, Chihuahua</p>
               </div>
 
               <div className="flex items-start gap-3">
@@ -110,9 +110,8 @@ export function Location() {
                   />
                 </svg>
                 <div className="space-y-1">
-                  <p className="text-[#111111]/70">614 425 2100</p>
-                  <p className="text-[#111111]/70">614 425 2090 ext. 2010</p>
-                  <p className="text-[#111111]/70">614 432 6600 ext. 2010</p>
+                  <p className="text-[#111111]/70">614 729 1333</p>
+                  <p className="text-[#111111]/70">614 105 2639</p>
                 </div>
               </div>
 
@@ -138,7 +137,7 @@ export function Location() {
             </div>
 
             <a
-              href="https://maps.google.com/?q=Hospital+Star+Medica+Chihuahua"
+              href="https://maps.google.com/?q=Hospital+Ángeles+Nueva+Torre+Avenida+Tomás+Valles+6500+Chihuahua"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-[#B11F2A] hover:bg-[#E5444F] text-white px-6 py-3 rounded-lg font-medium transition-colors mt-6"

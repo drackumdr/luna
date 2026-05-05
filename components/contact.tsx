@@ -44,7 +44,7 @@ export function Contact() {
               Agenda tu cita hoy
             </h2>
             <p className="text-[#111111]/70 mb-8">
-              Atendemos en Hospital Star Médica, Consultorio 1010, Chihuahua.
+              Atendemos en Hospital Ángeles Nueva Torre, Avenida Tomás Valles 6500, Consultorio 713, Piso 7.
               Con gusto te orientamos sobre tu padecimiento.
             </p>
 
